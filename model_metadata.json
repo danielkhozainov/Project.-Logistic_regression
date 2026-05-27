@@ -1,0 +1,25 @@
+{
+  "model_name": "LogisticRegression_Pipeline",
+  "creation_date": "2026-05-27T17:34:16.673873",
+  "version": "1.0",
+  "hyperparameters": {
+    "C": 0.1,
+    "solver": "liblinear",
+    "max_iter": 1000,
+    "random_state": 42
+  },
+  "performance_metrics": {
+    "test_log_loss": 0.10680250095407035,
+    "test_pr_auc": 0.7345830094111866
+  },
+  "feature_engineering": "create_enhanced_features function",
+  "preprocessor": "preprocessor_enhanced",
+  "training_data_shape": [
+    8359,
+    22
+  ],
+  "test_data_shape": [
+    2090,
+    22
+  ]
+}
